@@ -1,0 +1,145 @@
+.main-banner {
+    background-size: cover;
+}
+
+.animation-wrapper {
+    height: 100%;
+    animation-name: animi;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animi {
+    0% {
+        background: #00487c;
+    }
+    50% {
+        background: #00487cd4;
+        /* background: linear-gradient(
+      243deg,
+      rgb(48, 58, 246) 16%,
+      rgba(23, 5, 222, 0.7091211484593838) 43%,
+      rgba(0, 0, 254, 0.6278886554621849) 72%,
+      rgb(60, 16, 255) 93%
+    ); */
+    }
+    100% {
+        background: #00487c;
+    }
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.btn-1 {
+    color: aqua;
+    border: 2px solid seagreen;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.down-arrow {
+    text-align: center;
+    /* background-color: red; */
+    padding-top: 3px;
+}
+
+.desc {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.column {
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.536);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.655) inset; */
+}
+
+.btn-1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
+.desc_row {
+    justify-content: center;
+}
+
+.full_desc {
+    position: relative;
+}
+
+.desc_content {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.679);
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 5px 50px rgb(252, 251, 251);
+}
+
+.desc_content .para {
+    font-size: 20px;
+    text-shadow: 0px 0px 50px black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.full_desc img {
+    border-radius: 10px;
+}
+
+.desc_content p {
+    font-size: 18px;
+    line-height: 30px;
+    /* color: black; */
+    font-weight: 500;
+}
+
+ul li h3 {
+    font-weight: 400;
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.footer_wrapper ul li i {
+    color: white;
+    margin-left: 3px;
+}
+
+.full_desc {
+    margin-top: 100px;
+    /* background-color: red; */
+    grid: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.abc {
+    font-size: 2rem;
+}
+
+.c-section.theme-blue_dark {
+    background-color: #01497c;
+    color: #ffffff;
+}
+.what-home{
+    /* padding-bottom: 50px; */
+    margin-top: 30px;
+}
